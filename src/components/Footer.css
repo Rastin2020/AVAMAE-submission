@@ -1,0 +1,15 @@
+.footer {
+    margin: 30px;
+    border-top: rgb(140, 140, 140) solid 1px;    
+}
+
+.footer > p {
+    text-align: end;
+    color: rgb(140, 140, 140);
+}
+
+@media only screen and (max-width: 426px) {
+    .footer > p {
+        text-align: center;
+    }
+}

@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.vertical-margin {
+  margin: 20px 0;
+}
+
+.link-color {
+  color: #5e99dc !important;
+}
+
+.main-button {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #2F7BB8;
+  padding: 20px;
+  border: 0;
+  border-radius: 5px;
+  color: white !important;
+  min-width: 100px;
+  max-width: 150px;
+}
+
+.main-button-inverted {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 0;
+  border-radius: 5px;
+  color: #2F7BB8 !important;
+  min-width: 100px;
+  max-width: 150px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-container-three {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.full-width-container {
+  width: 100%;
+}
+
+.relative-position {
+  position: relative;
+}
+
+.dark-background {
+  background-color: #645D5A;
+}
+
+.medium-padding {
+  padding: 30px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+.float-right {
+  float: right;
+}
+
+.mobile-shown {
+  display: none;
+}
+
+@media only screen and (max-width: 426px) {
+  .mobile-shown {
+    display: initial;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}

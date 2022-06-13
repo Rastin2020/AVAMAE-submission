@@ -1,0 +1,48 @@
+nav {
+    border-bottom: rgb(140, 140, 140) solid 1px;
+}
+
+.inline-flex {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.inline-flex>a {
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.login-button {
+    width: 100px;
+    height: 100%;
+    border: 0;
+    background-color: #EEF7FF;
+    color: #5891C4;
+}
+
+.general-padding {
+    padding: 10px 30px;
+}
+
+@media only screen and (max-width: 426px) {
+    .mobile-hidden {
+        display: none;
+    }
+
+    img.mobile-show {
+        width: 300px;
+    }
+
+    .mobile-centered {
+        text-align: center;
+    }
+
+    .grid-container {
+        grid-template-columns: 100%;
+    }
+}

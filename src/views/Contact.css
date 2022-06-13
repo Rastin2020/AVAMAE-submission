@@ -1,0 +1,55 @@
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    line-height: 40px;
+    background-color: #F8F9FC;
+    border: solid 1px #EAEAEA;
+}
+
+textarea {
+    background-color: #F8F9FC;
+}
+
+.submit-button {
+    width: 98%;
+    max-width: 100%;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
+
+.submit-icon {
+    float: left;
+}
+
+.hint-text {
+    color: #8d8c8c;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.new-phone-add {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 89%;
+    height: 100%;
+    border: 0;
+    background-color: #EEF7FF;
+    color: #5891C4;
+}
+
+.new-phone-add:hover {
+    cursor: pointer;
+}
+
+.general-padding {
+    padding: 10px 30px;
+}
